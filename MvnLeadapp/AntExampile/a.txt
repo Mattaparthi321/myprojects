@@ -1,0 +1,501 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for java.com.javachap.domain:antexampile:war:1.0.0
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: servletapi:servlet-api:jar -> version 2.4-20040521 vs 2.4 @ line 118, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building antexampile 1.0.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for hibernate:hibernate:jar:2.0-final is missing, no dependency information available
+[WARNING] The artifact servletapi:servlet-api:jar:2.4 has been relocated to javax.servlet:servlet-api:jar:2.4
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ antexampile ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ antexampile ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 31 source files to D:\maven123\MvnExampile\AntExampile\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[7,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[8,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[17,34] cannot find symbol
+  symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[19,34] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[20,34] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[19,12] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/BaseForm.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/BaseForm.java:[5,31] cannot find symbol
+  symbol: class ActionForm
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[7,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[8,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[12,45] cannot find symbol
+  symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[14,40] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[15,40] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[14,18] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[33,46] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[34,46] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[33,21] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[13,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[14,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[26,37] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[27,34] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[26,12] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[16,37] cannot find symbol
+  symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[18,34] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[19,34] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[18,12] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/LanguageForm.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/LanguageForm.java:[5,35] cannot find symbol
+  symbol: class ActionForm
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[10,35] cannot find symbol
+  symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[11,34] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[12,34] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[11,12] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[13,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[14,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[24,37] cannot find symbol
+  symbol:   class ActionMapping
+  location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[25,34] cannot find symbol
+  symbol:   class ActionForm
+  location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[24,12] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[8,25] package org.hibernate.cfg does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[13,26] cannot find symbol
+  symbol:   class SessionFactory
+  location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[26,37] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[28,19] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[28,51] cannot find symbol
+  symbol:   class HibernateException
+  location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[38,46] cannot find symbol
+  symbol:   class HibernateException
+  location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[8,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[9,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[10,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[25,9] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[35,17] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[35,43] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[36,28] cannot find symbol
+  symbol:   variable ActionErrors
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[37,32] cannot find symbol
+  symbol:   class ActionMessage
+  location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[48,17] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[49,17] cannot find symbol
+  symbol:   class Transaction
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[74,25] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[87,17] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[88,17] cannot find symbol
+  symbol:   class Transaction
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[115,25] cannot find symbol
+  symbol:   class Session
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[116,25] cannot find symbol
+  symbol:   class Query
+  location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[19,9] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[24,13] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[24,39] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[25,24] cannot find symbol
+  symbol:   variable ActionErrors
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[26,28] cannot find symbol
+  symbol:   class ActionMessage
+  location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[31,9] cannot find symbol
+  symbol:   class ActionForward
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[38,13] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[38,39] cannot find symbol
+  symbol:   class ActionErrors
+  location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[40,44] cannot find symbol
+  symbol:   class ActionMessage
+  location: class com.javachap.web.controller.LeadAction
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.340 s
+[INFO] Finished at: 2016-12-26T14:48:33+05:30
+[INFO] Final Memory: 16M/139M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile) on project antexampile: Compilation failure: Compilation failure:
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[7,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[8,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[17,34] cannot find symbol
+[ERROR] symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[19,34] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[20,34] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[19,12] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/BaseForm.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/BaseForm.java:[5,31] cannot find symbol
+[ERROR] symbol: class ActionForm
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[7,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[8,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[12,45] cannot find symbol
+[ERROR] symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[14,40] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[15,40] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[14,18] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[33,46] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[34,46] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[33,21] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[13,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[14,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[26,37] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[27,34] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[26,12] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[16,37] cannot find symbol
+[ERROR] symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[18,34] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[19,34] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LanguageAction.java:[18,12] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LanguageAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/LanguageForm.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/model/LanguageForm.java:[5,35] cannot find symbol
+[ERROR] symbol: class ActionForm
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[3,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[4,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[5,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[6,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[10,35] cannot find symbol
+[ERROR] symbol: class Action
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[11,34] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[12,34] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LogoutAction.java:[11,12] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LogoutAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/UserServiceImpl.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[9,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[10,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[11,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[12,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[13,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[14,32] package org.apache.struts.action does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[24,37] cannot find symbol
+[ERROR] symbol:   class ActionMapping
+[ERROR] location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[25,34] cannot find symbol
+[ERROR] symbol:   class ActionForm
+[ERROR] location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadListingAction.java:[24,12] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LeadListingAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[5,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[6,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[7,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[8,25] package org.hibernate.cfg does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[13,26] cannot find symbol
+[ERROR] symbol:   class SessionFactory
+[ERROR] location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[26,37] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[28,19] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[28,51] cannot find symbol
+[ERROR] symbol:   class HibernateException
+[ERROR] location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/utils/HibernateUtils.java:[38,46] cannot find symbol
+[ERROR] symbol:   class HibernateException
+[ERROR] location: class com.javachap.utils.HibernateUtils
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[8,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[9,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/CategoryServiceImpl.java:[10,21] package org.hibernate does not exist
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[25,9] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[35,17] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[35,43] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[36,28] cannot find symbol
+[ERROR] symbol:   variable ActionErrors
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LoginAction.java:[37,32] cannot find symbol
+[ERROR] symbol:   class ActionMessage
+[ERROR] location: class com.javachap.web.controller.LoginAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[48,17] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[49,17] cannot find symbol
+[ERROR] symbol:   class Transaction
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[74,25] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[87,17] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[88,17] cannot find symbol
+[ERROR] symbol:   class Transaction
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[115,25] cannot find symbol
+[ERROR] symbol:   class Session
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/service/impl/LeadServiceImpl.java:[116,25] cannot find symbol
+[ERROR] symbol:   class Query
+[ERROR] location: class com.javachap.service.impl.LeadServiceImpl
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[19,9] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[24,13] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[24,39] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[25,24] cannot find symbol
+[ERROR] symbol:   variable ActionErrors
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/SecuredAction.java:[26,28] cannot find symbol
+[ERROR] symbol:   class ActionMessage
+[ERROR] location: class com.javachap.web.controller.SecuredAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[31,9] cannot find symbol
+[ERROR] symbol:   class ActionForward
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[38,13] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[38,39] cannot find symbol
+[ERROR] symbol:   class ActionErrors
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] /D:/maven123/MvnExampile/AntExampile/src/main/java/java/com/javachap/web/controller/LeadAction.java:[40,44] cannot find symbol
+[ERROR] symbol:   class ActionMessage
+[ERROR] location: class com.javachap.web.controller.LeadAction
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for java.com.javachap.domain:antexampile:war:1.0.0
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: servletapi:servlet-api:jar -> version 2.4-20040521 vs 2.4 @ line 124, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building antexampile 1.0.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The POM for hibernate:hibernate:jar:2.0-final is missing, no dependency information available
+[WARNING] The artifact servletapi:servlet-api:jar:2.4 has been relocated to javax.servlet:servlet-api:jar:2.4
+Downloading: https://repo.maven.apache.org/maven2/org/apache/struts/struts-master/10/struts-master-10.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2.480 s
+[INFO] Finished at: 2016-12-26T14:52:30+05:30
+[INFO] Final Memory: 11M/110M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project antexampile: Could not resolve dependencies for project java.com.javachap.domain:antexampile:war:1.0.0: Could not find artifact org.apache.struts:struts-master:jar:10 in central (https://repo.maven.apache.org/maven2) -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for java.com.javachap.domain:antexampile:war:1.0.0
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.jboss.narayana.jta:jta:jar -> duplicate declaration of version 5.5.0.Final @ line 152, column 13
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building antexampile 1.0.0
+[INFO] ------------------------------------------------------------------------
+[WARNING] The artifact jta:jta:jar:1.0.1b has been relocated to javax.transaction:jta:jar:1.0.1B
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.693 s
+[INFO] Finished at: 2016-12-26T15:17:39+05:30
+[INFO] Final Memory: 8M/110M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal on project antexampile: Could not resolve dependencies for project java.com.javachap.domain:antexampile:war:1.0.0: Failure to find javax.transaction:jta:jar:1.0.1B in https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/DependencyResolutionException

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?> 
+<project name="AntExample1" default="compile">
+
+	<path id="mylibrarypath">
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="*.jar"/>
+		</fileset>
+		
+	</path>
+
+	<target name="init">
+		<mkdir dir="build/classes"/>
+	</target>
+	                                  `		
+	<target name="compile" depends="init" >
+		<javac destdir="build/classes" srcdir="src">
+			<classpath refid="mylibrarypath"/>	   
+		</javac>		
+	</target>
+	
+	<target name="war" depends="compile">
+		<war destfile="webapp.war" webxml="WebContent/WEB-INF/web.xml">
+			<fileset dir="WebContent"/>
+			<classes dir="build/classes"/>
+			
+		</war>
+	</target>
+	
+</project>
