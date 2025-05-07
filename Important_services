@@ -20,8 +20,5 @@
 33. API Gateway - APIs, Stages, Resources, Methods, Models, Authorizers, Usage Plans.
 34. CloudFormation - Stacks, Templates, Change Sets, StackSets, Macros, Nested Stacks.
 35. CloudWatch Logs - Log Groups, Streams, Subscriptions, Destinations, Insights, Metrics.
-
-
-   
 46. EventBridge - Rules, Events, Buses, Targets, Schemas, Event Bus Policies.
 47. FSx - File Systems, Storage, Backups, Security Groups, Subnet Groups, Data Repositories.
